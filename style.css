@@ -1,0 +1,90 @@
+* {
+  color: #1B1C21;
+}
+
+.body {
+    display: flex;
+}
+
+.rectangle {
+    position: fixed; left: 0; top: 0;
+    width: 320px; height: 100vh;
+    overflow: auto; padding: 20px; background: #eee; z-index: 1000;  
+}
+
+.ic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  border: none;
+}
+
+.repair {
+  display: flex;
+  flex-direction: row;
+}
+
+.highlight {
+  width: 4px;
+  height: 32px;
+  background-color: #41F6D7;
+  margin-top: 30px;
+}
+
+.equipment {
+  color: #7E7E82;
+  margin-top: 3px;
+  margin-left: 10px;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.main {
+  font-size: 24px;
+}
+
+.buttons {
+  margin-top: 100px;
+}
+
+.email{
+  font-size: 24px;
+}
+
+.phone {
+  font-size: 32px;
+}
+
+.lang {
+  display: flex;
+  font-size: 24px;
+}
+
+.copy {
+  margin-right: 10px;
+}
+
+.profile {
+  margin-right: 10px;
+}
+
+.ru {
+  margin-right: 10px;
+  color: #7E7E82;
+}
+
+.en {
+  margin-right: 10px;
+}
+
+.none {
+    margin-left: 320px; 
+    padding: 20px;
+}
