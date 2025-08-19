@@ -12,16 +12,19 @@
     }
 
 .rectangle {
-    box-shadow: 16px 0px 52px black;
     width: 320px;
-    float: left;
+    box-shadow: 16px 0px 52px 0px #0e185033, -2px 0px 4px 0px #454f7e05;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .ic {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 button {
@@ -38,9 +41,10 @@ button {
 }
 
 .equipment {
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 30px;
     padding-left: 20px;
+    margin-bottom: 20px;
     /*
     color: #7E7E82;
     padding-top: 30px;*/
@@ -52,11 +56,13 @@ button {
 }
 
 .main {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .services {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .services:hover {
@@ -67,6 +73,8 @@ button {
 
 .clients {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .clients:hover {
@@ -77,6 +85,8 @@ button {
 
 .sellers {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sellers:hover {
@@ -87,6 +97,8 @@ button {
 
 .partners {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .partners:hover {
@@ -97,6 +109,8 @@ button {
 
 .manufacturers {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .manufacturers:hover {
@@ -107,6 +121,8 @@ button {
 
 .centers {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .centers:hover {
@@ -117,6 +133,8 @@ button {
 
 .contacts {
     padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .contacts:hover {
@@ -131,16 +149,22 @@ button {
 }
 
 .email{
-  font-size: 24px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .phone {
-  font-size: 32px;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .lang {
   display: flex;
-  font-size: 24px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .copy {
