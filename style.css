@@ -1,6 +1,6 @@
 * {
     color: #1B1C21;
-    font-family: TT Lakes;
+    font-family: "TT Lakes", sans-serif;
 }
 
 @font-face {
@@ -10,10 +10,6 @@
       font-weight: normal; /* или bold, 500 и т.д. */
       font-style: normal; /* или italic */
     }
-
-body {
-    font-family: "TT Lakes", sans-serif; 
-}
 
 .rectangle {
     box-shadow: 16px 0px 52px black;
