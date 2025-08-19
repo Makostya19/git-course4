@@ -185,10 +185,21 @@ button {
 
 .ru {
     margin-left: 10px;
-  margin-right: 10px;
-  color: #7E7E82;
+    margin-right: 10px;
+}
+
+.ru:hover {
+    color: #7E7E82;
 }
 
 .en {
   margin-right: 10px;
+}
+
+.en:hover {
+    color: #7E7E82;
+}
+
+.ch:hover {
+    color: #7E7E82;
 }
