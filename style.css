@@ -1,17 +1,17 @@
 * {
     color: #1B1C21;
-    font-family: "TT Lakes Bold";
+    font-family: "TT Lakes Medium";
 }
 
-/*@font-face {
-    font-family: 'TT Lakes Thin';
-    src: url('TTLakes-Thin.eot');
-    src: url('TTLakes-Thin.eot?#iefix') format('embedded-opentype'),
-    url('TTLakes-Thin.woff') format('woff'),
-    url('TTLakes-Thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }*/
+@font-face {
+    font-family: "TT Lakes Medium";
+    src: url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.eot");
+    src: url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ca5e3fbb4fc32776879bd240b38adc68.svg#TT Lakes Medium")format("svg");
+}
 
 .rectangle {
     width: 320px;
