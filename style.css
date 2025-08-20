@@ -1,14 +1,16 @@
 * {
     color: #1B1C21;
-    font-family: "TT Lakes", sans-serif;
+    font-family: 'TT Lakes Thin';
 }
 
 @font-face {
-      font-family: "TT Lakes"; /* Имя шрифта, которое вы будете использовать */
-      src: url("path/to/tt-lakes-regular.woff2") format("woff2"),
-           url("path/to/tt-lakes-regular.woff") format("woff");
-      font-weight: normal; /* или bold, 500 и т.д. */
-      font-style: normal; /* или italic */
+    font-family: 'TT Lakes Thin';
+    src: url('TTLakes-Thin.eot');
+    src: url('TTLakes-Thin.eot?#iefix') format('embedded-opentype'),
+    url('TTLakes-Thin.woff') format('woff'),
+    url('TTLakes-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
     }
 
 .rectangle {
