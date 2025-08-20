@@ -1,9 +1,9 @@
 * {
     color: #1B1C21;
-    font-family: 'TT Lakes Thin';
+    font-family: "TT Lakes Condensed Bold DEMO";
 }
 
-@font-face {
+/*@font-face {
     font-family: 'TT Lakes Thin';
     src: url('TTLakes-Thin.eot');
     src: url('TTLakes-Thin.eot?#iefix') format('embedded-opentype'),
@@ -11,7 +11,7 @@
     url('TTLakes-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-    }
+    }*/
 
 .rectangle {
     width: 320px;
